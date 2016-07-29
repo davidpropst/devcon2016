@@ -1,0 +1,29 @@
+{
+	"resource": [
+		{
+			"name": "rpiDevice",
+			"label": "rpiDevice",
+			"plural": "rpiDevices",
+			"alias": null,
+			"field": [
+				{
+					"name": "id",
+					"label": "Id",
+					"type": "id"
+				},
+				{
+					"name": "ipAddresss",
+					"label": "IP Addresss",
+					"type": "string",
+					"allow_null": true
+				},
+				{
+					"name": "teamName",
+					"label": "Team Name",
+					"type": "string",
+					"allow_null": true
+				}
+			]
+		}
+	]
+}
